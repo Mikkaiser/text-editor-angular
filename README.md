@@ -1,5 +1,7 @@
 # AngularEditorExperiment
 
+An short text editor made with TinyMCE tool for Angular Projects!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
 ## Development server
