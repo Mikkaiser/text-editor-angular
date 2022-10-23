@@ -2,7 +2,7 @@
 
 An short text editor made with TinyMCE tool for Angular Projects!
 
-![Text editor working's gif](/assets/img/angular-editor.gif "Text Editor working in Angular!")
+![Text editor working's gif](/assets/angular-editor.gif "Text Editor working in Angular!")
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
