@@ -1,3 +1,4 @@
+import { environment as env } from './../environments/environment';
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -11,6 +12,7 @@ import { AsyncSubject, Subject } from 'rxjs';
 })
 export class AppComponent implements OnInit {
   private editorSubject: Subject<any> = new AsyncSubject();
+  public apiKey: string = env.tinyApiKey!;
 
   form!: FormGroup;
 
